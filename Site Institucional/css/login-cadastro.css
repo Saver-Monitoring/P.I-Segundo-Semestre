@@ -12,7 +12,6 @@ body {
     font-family: 'Blinker', sans-serif;
 }
 
-/* From uiverse.io by @JoseIsra */
 .card {
     width: 30rem;
     cursor: pointer;
@@ -77,7 +76,6 @@ body {
     transform: translateZ(3rem);
   }
 
-  /* From uiverse.io by @mrhyddenn */
 .form__group {
     position: relative;
     padding: 20px 0 0;
@@ -213,7 +211,6 @@ body {
     transform: translateZ(3rem);
   }
 
-
   .form__group2 {
     position: relative;
     padding: 20px 0 0;
@@ -308,7 +305,6 @@ body {
 
   /* ------------ botao voltar --------------- */
 
-  /* From uiverse.io by @Jedi-hongbin */
 .voltar {
     display: flex;
     height: 3em;
@@ -318,13 +314,14 @@ body {
     background-color: #eeeeee4b;
     border-radius: 3px;
     letter-spacing: 1px;
-    transition: all 0.2s linear;
+    transition: all 0.3s linear;
     cursor: pointer;
     border: none;
     background: #fff;
     transform-style: preserve-3d;
     transform: translateZ(5rem);
     backface-visibility: hidden;
+    font-weight: 700;
    }
 
    a{
@@ -347,13 +344,12 @@ body {
    }
    
    .voltar:hover {
-    box-shadow: 4px 4px 11px #191919;
+    box-shadow: 4px 4px 11px var(--secundary);
     transform: translateY(-2px);
    }
 
    /* --------- botao continuar ----------- */
 
-   /* From uiverse.io by @mateusneves */
 .avancar {
     display: flex;
     height: 3em;
@@ -362,7 +358,7 @@ body {
     justify-content: center;
     position: relative;
     font-size: 14px;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
     height: 3em;
     padding: 0 3em;
     border: none;
@@ -375,6 +371,8 @@ body {
     transform: translateZ(3rem);
     backface-visibility: hidden;
     text-decoration: none;
+    font-weight: 600;
+    transition: 0.5s;
    }
    
    .avancar::before {
@@ -385,7 +383,7 @@ body {
     left: 0;
     height: 0px;
     width: 100%;
-    transition: 0.2s;
+    transition: 0.5s;
    }
    
    .avancar .label {
@@ -402,7 +400,7 @@ body {
     top: 3em;
     right: 0;
     opacity: 0;
-    transition: 0.4s;
+    transition: 0.5s;
    }
    
    .avancar:hover::before {
@@ -415,6 +413,6 @@ body {
    }
 
    .avancar:hover {
-    box-shadow: 4px 4px 11px #191919;
+    box-shadow: 4px 4px 11px var(--secundary);
     transform: translateY(-2px);
    }
