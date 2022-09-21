@@ -153,7 +153,7 @@ body {
     padding: 60px 0;
     display: flex;
     align-items: center;
-    margin-left: -70px;
+    margin-left: 50px;
     color: #b4b4b4;
     font-size: 24px;
     line-height: 26px;
@@ -165,7 +165,7 @@ body {
 
 #fotos .servicos-texto .imagem span {
     color: var(--secundary);
-    font-size: 55px;
+    font-size: 60px;
     line-height: 110px;
     letter-spacing: 1.5px;
     font-weight: 700;
